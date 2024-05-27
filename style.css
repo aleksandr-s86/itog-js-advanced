@@ -1,0 +1,441 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 90%;
+    display: flex;
+    flex-direction: column;    
+    font-family: lato, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    background: rgb(34, 34, 34);
+    justify-content: space-between;
+    padding: 0px 231px;
+    align-items: center;
+    height: 75px;
+}
+.head1{
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+.head2{
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+.top_content{
+    display: flex;
+    align-items: center;
+    gap: 63.5px;
+    background: rgb(241, 228, 230);
+    margin-bottom: 65px;
+}
+.text{
+    display: flex;
+    flex-direction: column;       
+}
+.text1{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.brand{
+    font-size: 48px;
+    font-weight: 900;
+}
+.luxerious{
+    font-size: 32px;
+    font-weight: 700;  
+}
+.fashion{
+    font-size: 32px;
+    font-weight: 700;
+    color:rgb(241, 109, 127);  
+}
+.content{
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 30px;
+    margin-bottom: 96px;  
+}
+
+.for4{
+    grid-column: 1/4;
+    background-image: url(img/Rectangle\ 20-2.png);
+    min-height: 180px;
+}
+
+.for{
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 0 130px rgba(0, 0, 0, 0.6) inset;
+    align-items: center;
+    text-align:center;
+    flex-direction: column;
+}
+
+.for1{
+    background-image: url(img/Layer\ 43.png);
+    min-height: 260px;
+}
+.for2{
+    background-image: url(img/30.png);
+    min-height: 260px;
+}
+.for3{
+    background-image: url(img/Rectangle\ 30.png);
+    min-height: 260px;
+}
+.h_grid{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.h1_grid{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(241, 109, 127);
+}
+.fetured_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 48px;
+}
+.fetured{
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.shop{
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.price{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 48px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 16px;
+    gap: 16px;   
+}
+.head_item{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.par_item{
+    color: rgb(93, 93, 93);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.price_item{
+    color: rgb(241, 109, 127);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.browse_but{
+    display: flex;
+    justify-content: center;
+}
+.browse{
+    width: 212px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 106, 106);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    place-self: center;
+    color: rgb(242, 99, 118);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    background-color: white;
+    margin-bottom: 95px;
+}
+.delivery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(34, 34, 36);
+    gap: 30px;
+    padding: 103px 230px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    
+}
+.free_delivery{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+.worldwide{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #FBFBFB;
+}
+.subscribe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 223.3px;
+    padding: 97px 230px 126px;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(img/Layer\ 41.png);
+    background-size: 100%;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.register1{
+    gap: 20px;
+}
+.register2{
+    gap: 32px;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 100px;
+}
+.vestibulum{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+.pulvinar{
+    font-style: italic;
+}
+.subs{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
+.subs1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.push{
+    position: absolute;
+    width: 100px;
+    height: 49px;
+    background: rgb(241, 109, 127);
+    border: none;
+    border-radius: 0px 24.5px 24.5px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+}
+.field{
+    position: relative;
+    width: 256px;
+    height: 49px;  
+    border: none;
+    background: rgb(225, 225, 225);
+    border-radius: 24.5px 0px 0px 24.5px;
+    padding: 0px 22px;
+}
+.but{
+    position: relative;
+    right: 47px;
+}
+.footer{
+    background: rgb(34, 34, 36);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0px;
+}
+.par_fot{
+    color: rgb(251, 251, 251);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.icon_fot{
+    display: flex;
+    gap: 7.3px;
+}
+.menu_head2{
+    background: none;
+    border: none;
+}
+.red_menu{
+    color: rgb(241, 109, 127);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.head2 button ul{
+    position: absolute;
+    background-color: #FBFBFB;
+    list-style: none;
+    padding: 32px 74px 32px;
+    display: none;
+}
+.head_drop{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.li_menu{
+    display: flex;
+    color: rgb(111, 110, 110);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    margin-left: 21.5px;
+}
+
+.head2 button:hover>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;   
+}
+.korzina::before{
+    content: var(--count);
+    display: flex;
+    width: 19px;
+    height: 19px;
+    background-color: rgb(241, 109, 127);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1.5vw;
+    top:1.2vh
+}
+.korzina{
+    margin-bottom: 17px;
+}
+:root{
+       --count:"0";
+}
+
+
+
+.browse:hover{
+    width: 212px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF6A6A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    place-self: center;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    background-color: #FF6A6A;
+}
+.ic_f:hover path{
+    fill: #FF6A6A;
+    stroke: #FBFBFB;   
+}
+
+
+.img_item{
+    width: 100%;
+    
+}
+
+.div_img .img_item:hover {
+    filter: brightness(20%);
+    cursor: pointer;
+}
+     
+
+.but_korzina .add_chart{
+    display: flex;
+    justify-content: center;
+    width: 138px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    bottom: calc(50% + 30vh);
+    right: calc(50% + 7vw);
+    opacity: 0;
+    transition: opacity 0.3s;
+    padding: 11.3px 13.5px;
+    gap: 11px;  
+}
+
+.but_korzina .add_chart:hover{
+    opacity: 1;
+}
+
+

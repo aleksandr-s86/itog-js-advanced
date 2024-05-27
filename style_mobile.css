@@ -1,0 +1,146 @@
+@media (min-width: 320px) and (max-width: 767px){
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;    
+        font-family: lato, sans-serif;
+    }
+    .header{
+        padding: 18px 16px;
+        height: 74px;
+    }
+    .face, .korzina, .layer_57{
+        display: none;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+               
+    }
+    .text1{
+        gap: 15px;
+        justify-content: center;
+        padding: 150px 56px;
+    }
+    .brand{
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 45.6px;
+    }
+    .luxerious{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;  
+    }
+    .fashion{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 44.4px;
+    }
+    .top_content{
+        min-height: 363px;
+        margin-bottom: 64px;
+        justify-content: center;
+    }
+    .rectangle{
+        margin-top: 2px;
+        margin-bottom: 3px;
+    }
+    .content{
+        margin: 0px 16px;
+    }
+    .grid{
+        display: grid;
+        grid-template: 1fr 1fr 1fr 0.5fr/ 1fr;
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+    .for4{
+        grid-column: 1;
+    }
+    .for{
+        background-size: auto;
+    }
+    .fetured_items{
+        margin-bottom: 64.7px;
+        text-align: center;
+    } 
+    .price{
+        display: flex;
+        flex-direction: column;
+    }
+    .item{
+        gap: 25.3px;
+    }
+    .text3{
+        margin: 0px 28.7px 20px 16.4px;
+        gap: 12.6px;   
+    }
+    .price_item{
+        color: rgb(241, 109, 127);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        margin-top: 5.4px;
+    }
+    .delivery{
+        grid-template: 1fr/1fr ;
+        gap: 46.5px;
+        padding: 48px 14px;
+        margin-top: 96.5px;
+    }
+    .worldwide{
+        font-weight: 300;    
+    }
+    .subscribe{
+        grid-template: 1fr/1fr;
+        gap: 59px;
+        padding: 64px 14px 110px;
+        background-size: cover;
+    }
+    .vestibulum{
+        font-size: 18px;
+        line-height: 22px;        
+    }
+    .subs1{
+        line-height: 21.5px;
+    }
+    .subs{
+        line-height: 36.8px;   
+    }
+    .push{
+        position: absolute;
+        width: 30vw;
+        height: 46.9px;
+        border-radius: 0px 23.5px 23.5px 0px;   
+    }
+    .field{
+        position: relative;
+        width: 50vw;
+        height: 46.9px;  
+        border: none;
+        background: rgb(225, 225, 225);
+        border-radius: 24.5px 0px 0px 24.5px;
+        padding-left: 22px;
+    }
+    .but{
+        position: relative;
+        right: 15vw;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .par_fot{
+        order: 1;
+    }
+    .head2 button ul{
+        position: absolute;
+        background-color: #FBFBFB;
+        list-style: none;
+        padding: 32px 74px 32px;
+        display: none;
+        right: 1vw;
+    }
+}

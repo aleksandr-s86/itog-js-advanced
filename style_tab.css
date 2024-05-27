@@ -1,0 +1,105 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        width: 100%;
+        margin-bottom: 70.5px;
+    }
+    .header{
+        padding: 18px 32px;
+        height: 74px;
+    }
+    .head2{
+        display: flex;
+        gap: 25px;
+        align-items: center;
+    }
+    .layer_57{
+        width: 50%;
+    }
+    .top_content{
+        gap: 39px; 
+    }
+    .korzina{
+        margin-left: 17px;
+    }
+    .brand{
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 52.8px;
+    }
+    .luxerious{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.8px;  
+    }
+    .fashion{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.8px;
+    }
+    .content{
+        margin: 0px 16.5px;
+    }
+    .grid{
+        gap: 19px;
+        margin-bottom: 109px;  
+    }
+    .for1{
+        min-height: 168px;
+    }
+    .for2{
+        min-height: 168px;
+    }
+    .for3{
+        min-height: 168px;
+    }
+    .for4{
+        min-height: 116px;
+    }
+    .fetured_items{
+        gap: 3.3px;
+        margin-bottom: 73.7px;
+    }
+    .price{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-bottom: 32.5px;
+    }
+    .item{
+        gap: 25.4px;
+    }
+    .text3{
+        margin: 0px 28.8px 20px 16.5px;
+        gap: 12.6px;   
+    }
+    .par_item{
+      margin-top: 5.5px;
+    }
+
+    .delivery{
+        grid-template: 1fr/1fr ;
+        gap: 48.5px;
+        padding: 48px 204px;
+        margin-top: 64.5px;
+    }
+    .worldwide{
+        font-weight: 300;    
+    }
+    .subscribe{
+        grid-template: 1fr/1fr;
+        gap: 48px;
+        padding: 64px 204px 140px;
+        background-size: cover;
+    }
+    .subs1{
+        line-height: 162%;
+    }
+    .head2 button ul{
+        position: absolute;
+        background-color: #FBFBFB;
+        list-style: none;
+        padding: 32px 74px 32px;
+        display: none;
+        right: 1vw;
+    }
+
+}
