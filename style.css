@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Didact+Gothic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 *{
     margin: 0px;
     padding: 0px;
@@ -407,6 +409,9 @@ a{
     width: 100%;
     
 }
+.div_img{
+    position: relative;
+}
 
 .div_img .img_item:hover {
     filter: brightness(20%);
@@ -427,7 +432,7 @@ a{
     border: 1px solid rgb(255, 255, 255);
     position: relative;
     bottom: calc(50% + 30vh);
-    right: calc(50% + 7vw);
+    right: -95px;
     opacity: 0;
     transition: opacity 0.3s;
     padding: 11.3px 13.5px;
@@ -437,5 +442,71 @@ a{
 .but_korzina .add_chart:hover{
     opacity: 1;
 }
+.but_korzina{
+    position: absolute;
+    top: 42%;
+    left: 2%;
+}
 
 
+
+.cart {
+  display: flex;
+  max-width: 652px;
+  box-shadow: 17px 19px 24px 0 rgba(0, 0, 0, 0.13);
+  position: relative;
+}
+
+.info {
+  padding: 22px 97px 62px 31px;
+}
+
+.card_tittle {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 42px;
+}
+
+.cart-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card_item {
+  color: #575757;
+}
+
+.color_pink {
+  color: #ef5b70;
+}
+
+.color_grey {
+  color: #6f6e6e;
+}
+
+.close {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  right: 22px;
+  top: 28px;
+}
+
+input {
+  width: 44px;
+  height: 24px;
+  border: 1px solid #eaeaea;
+  padding-left: 15px;
+  font-size: 18px;
+  color: #656565;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}/*# sourceMappingURL=style.css.map */
